@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Diferencia de Horas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Diferencia de Horas</h1>
+        <form id="timeForm">
+            <label for="startTime">Hora de Inicio:</label>
+            <input type="time" id="startTime" required>
+
+            <label for="endTime">Hora Final:</label>
+            <input type="time" id="endTime" required>
+
+            <button type="submit">Calcular Diferencia</button>
+        </form>
+        <div class="result">
+            <p>La diferencia es: <span id="timeDifference">0</span> horas</p>
+        </div>
+        <div class="result">
+            <p>El valor es: <span id="valor"></span> COP</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
